@@ -1,0 +1,40 @@
+
+
+<form action="/index.php?state=save" method="POST">
+	<div>
+		<label for="POST-name">Nom du joueur 1:</label>
+	  	<input id="POST-name" type="text" name="firstHero[]">
+
+		<label for="hp">Hp</label>
+	  	<input  type="text" name="firstHero[]" id="hp">
+
+	  	<label for="mp">Mp</label>
+	  	<input  type="text" name="firstHero[]" id="mp">
+
+	  	<label for="class1" name="firstHero[]">Class</label>
+	  	<select class="" name="firstHero[]" id="class1">
+	  		<option value="mage">Mage</option>
+	  		<option value="warrior">Warrior</option>
+	  	</select>
+  	</div>
+
+  	<div>
+	  	<label for="POST-name">Nom du joueur 2:</label>
+	  	<input id="POST-name" type="text" name="secondeHero[]">
+
+	  	<label for="hp">Hp</label>
+	  	<input  type="text" name="secondeHero[]" id="hp">
+
+	  	<label for="mp">Mp</label>
+	  	<input  type="text" name="secondeHero[]" id="mp">
+
+	  	<label for="class2" name="secondeHero[]">Class</label>
+	  	<select class="" name="secondeHero[]" id="class2">
+	  		<option value="mage">Mage</option>
+	  		<option value="warrior">Warrior</option>
+	 		
+	  	</select>
+  	
+  	</div>
+  	<input type="submit" value="Enregistrer">
+</form>
